@@ -1,0 +1,12 @@
+myenv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+*.faiss
+chroma_data/
+uploads/
+eval/reports/*
+!eval/reports/.gitkeep
+vector_data/
+dev.db

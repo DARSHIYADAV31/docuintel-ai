@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "file": "invoice_001.png",
+      "doc_type": "invoice",
+      "line_item_count": 2,
+      "fields": {
+        "invoice_number": "INV-2024-001",
+        "vendor_name": "Acme Supplies Ltd",
+        "invoice_date": "2024-03-05",
+        "due_date": "2024-04-04",
+        "currency": "USD",
+        "subtotal": "100.00",
+        "tax": "10.00",
+        "total": "110.00",
+        "bank_account": "DE89370400440532013000"
+      },
+      "handwritten": false
+    },
+    {
+      "file": "invoice_002.png",
+      "doc_type": "invoice",
+      "line_item_count": 3,
+      "fields": {
+        "invoice_number": "88213",
+        "vendor_name": "Northwind Traders",
+        "invoice_date": "2024-05-12",
+        "due_date": "2024-06-11",
+        "currency": "EUR",
+        "subtotal": "550.00",
+        "tax": "104.50",
+        "total": "654.50"
+      },
+      "handwritten": false
+    },
+    {
+      "file": "po_001.png",
+      "doc_type": "po",
+      "line_item_count": 2,
+      "fields": {
+        "po_number": "PO-5521",
+        "vendor_name": "Globex Industrial",
+        "order_date": "2024-07-01",
+        "currency": "USD",
+        "subtotal": "350.00",
+        "tax": "28.00",
+        "total": "378.00"
+      },
+      "handwritten": false
+    },
+    {
+      "file": "contract_001.png",
+      "doc_type": "contract",
+      "line_item_count": 0,
+      "fields": {
+        "contract_title": "Service Agreement",
+        "party_a": "Initech LLC",
+        "party_b": "Hooli Corp",
+        "effective_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "contract_value": "250000.00",
+        "payment_terms": "Net 45 days",
+        "governing_law": "State of California"
+      },
+      "handwritten": false
+    }
+  ]
+}

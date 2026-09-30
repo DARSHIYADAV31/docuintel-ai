@@ -1,0 +1,32 @@
+# API
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic-settings
+python-jose[cryptography]
+passlib[bcrypt]
+# Database
+sqlalchemy
+psycopg[binary]
+alembic
+# OCR / parsing
+docling
+paddleocr
+paddlepaddle
+pypdf
+pillow
+# Embeddings / vector stores
+sentence-transformers
+faiss-cpu
+chromadb
+# LLMs
+google-genai
+mistralai
+tenacity
+# Frontend
+streamlit
+requests
+# Testing
+pytest
+pytest-mock
+httpx
